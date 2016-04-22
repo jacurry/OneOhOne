@@ -299,9 +299,12 @@ private:
    }
 };
 
+// Workers
 Blinker  blinker(1000ul);
-App101   App;
 Gyro     gyro;
+
+// App
+App101   App;
 
 void setup() 
 {
